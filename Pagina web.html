@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Folleto Informativo: Isla del Coco </title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>La Isla del Coco</h1>
+        <nav>
+            <ul>
+                <li><a href="#info">Información</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#comentarios">Comentarios</a></li>
+            </ul>
+        </nav>
+    </header>
+<p>
+    <main>
+    </p> <section id="info"><p>
+    </p> <h2>Descripción</h2></p>
+            <p>La Isla del Coco es una isla y parque nacional situada en el océano Pacífico, pertenece al cantón de Puntarenas de la provincia de Puntarenas en Costa Rica.</p>
+            <h3>Datos Curiosos</h3>
+            <ul>
+                <li>La Isla del Coco hizo a Costa Rica 10 veces más grande y le da al país el 51% del área marina.</li>
+                <li>La Isla del Coco ha sido objeto de leyendas sobre tesoros escondidos.</li>
+                <li>Hay guardaparques, biólogos, investigadores y marinos que residen allí las 24 horas para proteger su ecosistema y realizar investigaciones.</li>
+            </ul>
+            <h3>Tabla con los países y sus capitales más cercanos a la Isla del Coco.</h3>
+            <table>
+                <tr>
+                    <th>País</th>
+                    <th>Capital</th>
+                </tr>
+                <tr>
+                    <td>Costa Rica</td>
+                    <td>San José</td>
+                </tr>
+                <tr>
+                    <td>Panamá</td>
+                    <td>Ciudad de Panamá</td>
+                </tr>
+                <tr>
+                    <td>Nicaragua</td>
+                    <td>Managua</td>
+                </tr>
+            </table>
+            <button id="toggle-info">Mostrar/Ocultar Datos Curiosos</button>
+            <p id="datos-curiosos" style="display:none;">Tiene un área de aproximadamente 23.85 km² y es la única masa de tierra que emerge sobre la placa tectónica de Cocos.</p>
+        </section>
+        
+        <section id="galeria">
+            <h2>Galería de Imágenes</h2>
+            <img src="Isladelcoco1.jpg" alt="Vista de la Isla del Coco" class="galeria-img">
+            <img src="Isladelcoco2.jpg" alt="Vista de la Isla del Coco" class="galeria-img">
+            <img src="Isladelcoco3.jpg" alt="Vista de la Isla del Coco" class="galeria-img">
+            <img src="Isladelcoco4.jpg" alt="Vista de la Isla del Coco" class="galeria-img">
+        </section>
+        
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <form id="contact-form">
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" required>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section id="comentarios">
+            <h2>Comentarios</h2>
+            <form id="comment-form">
+                <label for="comment">Deja tu comentario:</label>
+                <textarea id="comment" required></textarea>
+                <button type="submit">Agregar Comentario</button>
+            </form>
+            <div id="comment-list"></div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
